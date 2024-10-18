@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site web</title>
+    <link rel="stylesheet" href="p.f.css">
+</head>
+<body>
+
+    <!-- Menu de navigation -->
+    <header style="font-size: large;">
+         <div class="topnav">
+            <a style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: larger;"><b>WINNER service.</b></a>
+           <div class="topnav-right">
+            <a href="#contact"><b>Contact</b></a>
+            <a href="#services"><b>Services</b></a>
+            <a href="#about"><b>A propos</b></a>
+            <a class="active" href="#accueil"><b>Accueil</b></a>
+           </div>
+         </div>
+    </header>
+
+
+    <!-- Section Accueil -->
+      <section class="home">
+        <div class="hero-image">
+            <div class="hero-text">
+              <h1 style="font-size:70px"><b>Conception de sites web et d'applications mobiles</b></h1>
+              <h3>Votre partenaire digital à Abidjan pour des solutions innovantes et sur mesure.</h3>
+            </div>
+          </div>
+      </section>
+  
+
+    <!-- Section À propos -->
+    <div id="about" class="container" style="background-color:#f1f1f1; font-size: large;">
+        <div class="row">
+          <div class="column-33">
+            <img src="img4.jpg" alt="App" width="535" height="671">
+          </div>
+          <div class="column-66">
+            <h1 class="xlarge-font"><b>À propos de Winner Service</b></h1>
+            <p>Nous sommes une entreprise de conception de pages web et d'applications mobiles, située à Abidjan, Côte d'Ivoire, dédiée à votre succès. Créer un site internet est une priorité pour toute personne ou entité souhaitant se faire connaître. C'est votre camp de base, votre commercial en plein temps. Il permet d'attirer, convertir, fidéliser et transformer vos prospects en ambassadeur.</p>
+            <h1 class="large-font" style="color:red; text-align: center;"><b>Notre mission</b></h1>
+            <ul style="list-style-type:disc;">
+                <li style="padding-top: 20px;">Nous nous engageons à fournir des solutions innovantes et personnalisées, en mettant l'accent sur la qualité et la satisfaction de nos clients.</li>
+                <li>Notre agence est spécialisée dans la conception de : site vitrine, e-commerce et application sur mesure . Nos experts développés pour vous des sites et applications web sur mesure, responsive, bien désignés, bien référencés et qui s'adaptent aux futures mises à jour.</li>
+                <li>Nous ne nous limitons pas à la conception d'un site web. Nous concevons pour vous une arme de guerre. Et cette arme de guerre va vous permettre d'augmenter votre part de marché en un temps record</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- Section Services -->
+    <section id="services" style="font-size: large; background-color: rgba(0, 128, 53, 0.87);">
+        <h2>Nos Services</h2>
+        <a href="dev.web.html" class="color">
+           <div class="service-item" style="background-color: rgba(0, 255, 255, 0.712); color: black;">
+              <h3>Développement Web</h3>
+              <p>Nous créons des sites web modernes et réactifs pour tous types de projet.</p>
+           </div>
+        <a href="seo.html" class="color">
+            <div class="service-item" style="background-color: rgba(0, 0, 255, 0.685); color: black;">
+              <h3>SEO</h3>
+              <p>Optimisez votre présence en ligne avec nos services de SEO professionnels.</p>
+            </div>
+        </a>
+
+        <a href="consltation.html" class="color">
+           <div class="service-item" style="background-color: rgba(172, 255, 47, 0.747); color: black;">
+              <h3>Consultation</h3>
+              <p>Nous vous aidons à choisir la meilleure stratégie numérique pour votre entreprise.</p>
+           </div>
+        </a>   
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <div class="hote">
+            <h1>Créativité</h1>
+            <p>Conception de sites et applications mobiles innovantes.</p>
+            <h3>CONTACT</h3>
+            <p>07 87 51 93 09</p>
+            <p>berengerkouadioglo@gmail.com</p>
+        </div> 
+        <div class="hote">   
+            <h2>Contactez-nous</h2>
+            <form id="contact-form">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <label for="number">Adresse :</label>
+            <input type="number" id="number" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Envoyer</button>
+            </form>
+            <p id="confirmation-message"></p>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Winner Service. Tous droits réservés.</p>
+    </footer>
+
+    
+    <script src="./script.p.f.js"></script>
+
+</body>
+</html>
